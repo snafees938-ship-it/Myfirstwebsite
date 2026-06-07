@@ -1,0 +1,251 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>My Website</title><style>body{font-family:sans-serif;margin:0;padding:20px;}</style></head><body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    color:#333;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+header{
+    text-align:center;
+    background:#0077ff;
+    color:white;
+    padding:30px;
+    border-radius:10px;
+}
+
+header img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    margin-top:10px;
+    border:4px solid white;
+}
+
+nav{
+    text-align:center;
+    margin:20px 0;
+}
+
+nav a{
+    text-decoration:none;
+    color:#0077ff;
+    font-weight:bold;
+    margin:0 15px;
+}
+
+section{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#0077ff;
+    margin-bottom:10px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table, th, td{
+    border:2px solid black;
+}
+
+th{
+    background:yellow;
+}
+
+th, td{
+    padding:10px;
+    text-align:center;
+}
+
+ul, ol{
+    margin-left:25px;
+}
+
+audio, video{
+    width:100%;
+    margin-top:10px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+input, select, textarea{
+    padding:10px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    background:#0077ff;
+    color:white;
+    border:none;
+    padding:10px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+@media(max-width:768px){
+    header{
+        padding:20px;
+    }
+
+    table{
+        font-size:14px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+    <h1>My Portfolio</h1>
+    <h3>Aaditya Yadav</h3>
+    <h5>Student</h5>
+    <img src="https://picsum.photos/100/100" alt="Profile Photo">
+</header>
+
+<nav>
+    <a href="#about">About</a> |
+    <a href="#education">Education</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hello! My name is Aaditya Yadav. I am learning HTML in Class 12th.
+        I like Web Designing, Programming and Technology.
+    </p>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <table>
+        <tr>
+            <th>Class</th>
+            <th>School</th>
+            <th>Percentage</th>
+        </tr>
+
+        <tr>
+            <td>10th</td>
+            <td>Morning star english high school</td>
+            <td>82%</td>
+        </tr>
+
+        <tr>
+            <td>12th</td>
+            <td>Vartak Junior College</td>
+            <td>Pursuing</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>Cricket</li>
+        <li>C++</li>
+        <li>HTML</li>
+        <li>Python</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <ol>
+        <li>Portfolio Website</li>
+        <li>Drawing</li>
+        <li>Online Quiz</li>
+    </ol>
+</section>
+
+<section>
+    <h2>Audio</h2>
+    <audio controls src=""></audio>
+</section>
+
+<section>
+    <h2>Video</h2>
+    <video controls src=""></video>
+</section>
+
+<section>
+    <h2>Contact Me</h2>
+
+    <form>
+
+        <label>Name:</label>
+        <input type="text" placeholder="Your Name">
+
+        <label>Email:</label>
+        <input type="email" placeholder="xyz@gmail.com">
+
+        <label>Phone Number:</label>
+        <input type="tel" placeholder="9555555555">
+
+        <label>Gender:</label>
+        <div>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+        </div>
+
+        <label>City:</label>
+        <select>
+            <option>Nalasopara</option>
+            <option>Vasai</option>
+            <option>Virar</option>
+        </select>
+
+        <label>Address:</label>
+        <textarea rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</section>
+
+</div>
+
+</body>
+</html>
+</body></html>
